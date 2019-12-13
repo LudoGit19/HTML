@@ -1,0 +1,90 @@
+header{
+    position: static;
+    background: #33729c;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+    font-family: 'Allerta Stencil', sans-serif;
+    
+}
+
+footer{
+    text-align: center; 
+    position: absolute; 
+    bottom:0;
+    bottom:0;  
+}
+
+.menu-nav ul{
+    position: fixed;
+    margin: 4px 5px;
+    list-style-type: none;
+    text-align:center;
+    top:0px;
+    right:10px;
+    left:10px;
+    top:0px;
+}
+.menu-nav li{
+    display: inline;
+    padding: 2px; 
+    border-radius: 40%;
+}
+.menu-nav a{
+    display:inline-block;
+    width:100px;
+    cursor: pointer; 
+    margin: 0 2px;
+    padding: 15px;
+    text-decoration:none;
+    border-radius: 10px 10px 0 10px;
+    box-shadow: 0 8px 16px 0 grey;
+    background-color: #007BFF;
+    Color:white;
+    font-weight: bold;
+}
+
+h1{
+    color: rgb(179, 49, 118);
+}
+
+body{
+    font-family: 'Patrick Hand', cursive;
+    background-color: #9fb4c4;
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+
+}
+
+h2{
+    color: green;
+}
+
+.menu-contact,
+.menu-formation,
+.menu-competence,
+.menu-experience,
+.menu-maisAussi
+{
+    color: blue;
+}
+.menu-contact:hover,
+.menu-formation:hover,
+.menu-competence:hover,
+.menu-experince:hover,
+.menu-maisAussi:hover
+{
+    color:red;
+}
+
+
+.link-google{
+    color:greenyellow;
+}
+.link-google:hover{
+    color: red;
+}
+

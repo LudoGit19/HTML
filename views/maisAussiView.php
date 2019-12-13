@@ -4,17 +4,19 @@ include("../tools/menu.php");
 ?>
 
 <style>
-.maisAussi{
-  color: rgb(51, 12, 73);
-  font-family: 'Ruda', sans-serif;
-  text-align: center;
-}
-  p.maisAussi{
-  color: rgb(51, 12, 73);
-  font-family: 'Ruda', sans-serif;
-  text-align: center;
+  .maisAussi {
+    color: rgb(51, 12, 73);
+    font-family: 'Ruda', sans-serif;
+    text-align: center;
   }
- /* #myCarousel {
+
+  p.maisAussi {
+    color: rgb(51, 12, 73);
+    font-family: 'Ruda', sans-serif;
+    text-align: center;
+  }
+
+  /* #myCarousel {
     width: 200px;
     height: 200px;
     margin:auto;
@@ -38,50 +40,33 @@ include("../tools/menu.php");
      height: 30px;
      background-color: #337ab7;
 } */
+</style>
 
-
-  </style>
-
-     
+<!--      
 <div class="container">
   <h2>Carousel Example</h2>  
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
+    
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
 
-    <!-- Wrapper for slides -->
+  
     <div class="carousel-inner">
       <div class="item active">
     
       </div>
        <div class="item">
 
-<?php
-    try
-    {
-      $pdo = new PDO('mysql:host=localhost;dbname=caroussel', 'root', '');
-    }
-    catch(Exception $e)
-    {
-            die('Erreur : '.$e->getMessage());
-    }
-    $req = $pdo->query('SELECT src, nom FROM images');
-    
-        while($donnees = $req->fetch()){
-
-                }
-?>
        
       </div> 
     
-    </div>
+    </div> -->
 
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+<!-- Left and right controls -->
+<!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>
       <span class="sr-only">Previous</span>
     </a>
@@ -90,42 +75,43 @@ include("../tools/menu.php");
       <span class="sr-only">Next</span>
     </a>
   </div>
-</div>
+</div> -->
 
+<div class="text-center">
+  <p class="maisAussi">
+    <h4>FORMATION EDUCATEUR FOOTBALL JEUNE (bénévole)</h4><br>
+    AVENIR DE THEIX FOOTBALL CLUB | 2018
+  </p>
 
- <!-- <p class ="maisAussi"><h4>FORMATION EDUCATEUR FOOTBALL JEUNE (bénévole)</h4><br>
- AVENIR DE THEIX FOOTBALL CLUB | 2018</p>    
-
-<div id="myCarousel" class="carousel slide border" data-ride="carousel">
- 
-   <ol class="carousel-indicators">
+  <div id="myCarousel" class="carousel slide border col-2 offset-5" style="background: grey" data-ride="carousel">
+    <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
-   </ol>
-   <div class="carousel-inner">
+    </ol>
+    <div class="carousel-inner">
       <div class="carousel-item active">
-         <img class="d-block w-100" src="../tools/images/kercado.JPG" alt="Leopard">
+        <img class="d-block w-100" src="../tools/images/kercado.JPG" alt="Leopard">
       </div>
       <div class="carousel-item">
-         <img class="d-block w-100" src="../tools/images/team.jpg" class="d-block w-100" alt="Cat">
+        <img class="d-block w-100" src="../tools/images/team.jpg" class="d-block w-100" alt="Cat">
       </div>
       <div class="carousel-item">
-         <img class="d-block w-100" src="../tools/images/logo_ENI.svg" alt="Lion">
-       
-      </div>
-   </div> -->
-   <!-- Controls -->
-   <!-- <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-     <span class="sr-only">Previous</span>
-   </a>
-   <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-     <span class="sr-only">Next</span>
-   </a> -->
-<!-- </div> -->
+        <img class="d-block w-100" src="../tools/images/logo_ENI.svg" alt="Lion">
 
+      </div>
+    </div>
+    <!-- Controls -->
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
 
 
 

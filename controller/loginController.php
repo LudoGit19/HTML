@@ -31,7 +31,7 @@ if(isset($_POST["pseudo"]) && isset($_POST["psw"])){
 	}else{
 		//Sinon nous signalons une erreur d'identifiant ou de mot de passe
         echo "login/password incorrect";
-        header('Location: register.php');
+        header('Location: ../index.php');
     }
 }
 ?>

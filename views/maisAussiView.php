@@ -15,72 +15,15 @@ include("../tools/menu.php");
     font-family: 'Ruda', sans-serif;
     text-align: center;
   }
-
-  /* #myCarousel {
-    width: 200px;
-    height: 200px;
-    margin:auto;
-  }
-  .carousel-indicators li {
-     text-indent: 0px;
-     text-align: center;
-     color: red;
-     margin: 0 2px;
-     width: 30px;
-     height: 30px;
-     border: none;
-     border-radius: 100%;
-     line-height: 30px;
-     background-color: #999;
-     transition: all 0.25s ease;
-}
- .carousel-indicators .active, .hover {
-     margin: 0 2px;
-     width: 30px;
-     height: 30px;
-     background-color: #337ab7;
-} */
 </style>
-
-<!--      
-<div class="container">
-  <h2>Carousel Example</h2>  
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-
-  
-    <div class="carousel-inner">
-      <div class="item active">
-    
-      </div>
-       <div class="item">
-
-       
-      </div> 
-    
-    </div> -->
-
-<!-- Left and right controls -->
-<!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-</div> -->
+<body class="bodymaisAussi">
 
 <div class="text-center">
   <p class="maisAussi">
-    <h4>FORMATION EDUCATEUR FOOTBALL JEUNE (bénévole)</h4><br>
-    AVENIR DE THEIX FOOTBALL CLUB | 2018
+  <br>
+  <h1>Educateur Football jeune (bénévole)</h1>
+    <h4> AVENIR DE THEIX FOOTBALL CLUB | 2018</h4><br>
+   
   </p>
 
   <div id="myCarousel" class="carousel slide border col-2 offset-5" style="background: grey" data-ride="carousel">
@@ -113,37 +56,7 @@ include("../tools/menu.php");
   </div>
 </div>
 
-
-
-<!-- <div class="carous-ludo">
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner ">
-      <div class="carousel-item active">
-        <img src="../tools/images/kercado.JPG" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="../tools/images/team.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="../tools/images/logo_ENI.svg" class="d-block w-100" alt="...">
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-</div>  -->
-
+</body>
 
 <?php
 include("../tools/footer.php");

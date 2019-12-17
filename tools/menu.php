@@ -1,11 +1,14 @@
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Brand/logo -->
-  <a class="navbar-brand" href="main.php"><img class = "favicon" src="/html/tools/images/accueil.png"></a>
-  
-  
+  <a class="navbar-brand" href="../views/mainView.php"><img class="favicon" src="/html/tools/images/accueil.png"></a>
+  <!-- <li class="nav-item">
+      <a class="nav-link" href="index.php"></a>
+    </li> -->
+
+
   <!-- Links -->
   <ul class="navbar-nav">
-  <li class="nav-item">
+    <li class="nav-item">
       <a class="nav-link" href="mainView.php">ACCUEIL</a>
     </li>
     <li class="nav-item">
@@ -22,21 +25,3 @@
     </li>
   </ul>
 </nav>
-
-
-<!-- <nav class="menu-nav">
-    <ul>
-
-    <li class="menu-contact"><a href="main.php">ACCUEIL</a></li> 
- 
-    <li class="menu-formation"><a href="formation.php">FORMATIONS</a></li>
-    <li class="menu-competence"><a href="competences.php">COMPETENCES</a></li>
-    <li class="menu-experience"><a href="experiences.php">EXPERIENCES</a></li>
-    <li class="menu-maisAussi"><a href="maisAussi.php">MAIS AUSSI...</a></li>
-                    
-    </ul>
-</nav>  -->
-
-
-    
-    

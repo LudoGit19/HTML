@@ -2,6 +2,7 @@
 include("../tools/header.php");
 include("../tools/menu.php");
 ?>
+<br>
 <h1>Compétences</h1>
 
 

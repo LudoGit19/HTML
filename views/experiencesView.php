@@ -42,6 +42,8 @@ include("../tools/menu.php");
   }
 </style>
 
+<body class="bodyexperiences">
+
 
 <div class="container mt-5 mb-5">
   <div class="row">
@@ -51,7 +53,7 @@ include("../tools/menu.php");
         <li>
           <p class="text-left">
             <!-- <a class="float"> -->
-              <h4 class="text-left">2019</h4>
+            <h4 class="text-left">2019</h4>
             <!-- </a> -->
             <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
               PROGRAMMATION INFORMATIQUE
@@ -71,21 +73,22 @@ include("../tools/menu.php");
         </li>
         <li>
           <p>
-          <p class="text-left">
+            <p class="text-left">
               <h4 class="text-left">2018</h4>
-            </a>
-            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
-              BILAN DE COMPETENCES
-            </a>
-            <div class="collapse" id="collapseExample2">
-              <div class="card card-body">
-                <p class="experience">
-                  <h4>Méthode ORIENT'ACTION - Vannes</h4><br>
-                  Réflexion Personnelles et Professionnelles
-                  Orientation vers les métiers de l'informatique : développeur/codeur
-                </p>
+              </a>
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                BILAN DE COMPETENCES
+              </a>
+              <div class="collapse" id="collapseExample2">
+                <div class="card card-body">
+                  <p class="experience">
+                    <h4>Méthode ORIENT'ACTION - Vannes</h4><br>
+                    Réflexion Personnelles et Professionnelles
+                    Orientation vers les métiers de l'informatique : développeur/codeur
+                  </p>
+                </div>
               </div>
-            </div>
+        </li>
         <li>
           <p>
             <a class="text-left">
@@ -106,8 +109,13 @@ include("../tools/menu.php");
                 </p>
               </div>
             </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+</body>
 
-
-            <?php
-            include("../tools/footer.php");
-            ?>
+<?php
+include("../tools/footer.php");
+?>

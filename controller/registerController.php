@@ -1,9 +1,6 @@
 <?php
 
-//Connexion à la base de données
-//(via PDO, utilisez la méthode de votre choix comme le type de base de données de votre choix)
-$pdo = new PDO(
-    'mysql:host=localhost;dbname=cv', 'root', '');
+$pdo = new PDO('mysql:host=localhost;dbname=cv', 'root', '');
 	
 //On vérifie que l'utilisateur a bien envoyé les informations demandées 
 if(isset($_POST["pseudo"]) && isset($_POST["psw"]) && isset($_POST["psw2"])){
@@ -16,11 +13,7 @@ if(isset($_POST["pseudo"]) && isset($_POST["psw"]) && isset($_POST["psw2"])){
 		$query->bindParam(':pseudo', $_POST["pseudo"]);
 		$query->bindParam(':psw', $hash);
 		$query->execute();
-		header('Location: ../views/mainView.php');
+		header('Location: ../views/loginController.php');
         exit();
     }
 }
-?>       
-        <!-- <!DOCTYPE html>
-
-

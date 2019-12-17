@@ -3,7 +3,7 @@ include("../tools/header.php");
 include("../tools/menu.php");
 ?>
 
-<body class="main">
+<body class="bodyformations">
 
 
     <div class="container">
@@ -24,22 +24,14 @@ include("../tools/menu.php");
                         CFTA - MONTFORT SUR MEU (35) <br>2000 - 2002</p>
                 </div>
             </div>
-            
         </div>
     </div>
     <div class=" centrerloadCv">
         <span> <a href="../tools/images/CvLC.pdf"></span>
         <button type="button" class="btn btn-light" onclick="alert('télécharger le cv')">TELECHARGER CV</button></span>
     </div>
-
-
 </body>
 
-
-
-
-<br>
-<br>
 
 <?php
 include("../tools/footer.php");
